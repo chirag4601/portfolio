@@ -1,30 +1,37 @@
 {
   "projects": [
     {
+      "date": "Feb, 2021 - May, 2023",
+      "title": "Software Engineer Intern at Liveasy",
+      "description": "Served as senior developer to build a truck booking, managing and load managing platform using Flutter.",
+      "url": "https://play.google.com/store/apps/details?id=com.liveasy.transport",
+      "ingSrc":"https://liveasy.net.in/assets/nav-logo.png"
+    },
+    {
       "date": "25/06/2023",
       "title": "TECHY STAR",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-      "url": "https://reactone-nine.vercel.app",
+      "description": "This project contains a website for an imaginary TechyStar which is a leading tech company dedicated to providing innovative solutions for the everyday problems faced by individuals, with a particular focus on enhancing problem-solving abilities in children.",
+      "url": "https://reacttechystar-q3c59zgrk-chirag4601.vercel.app/",
       "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
     },
     {
       "date": "30/06/2023",
       "title": "VIDEO HUB",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-      "url": "https://react-video-app-eight.vercel.app",
+      "description": "Video Hub: Your Ultimate Video Player and Uploader. Video Hub is an innovative app designed to revolutionize your video viewing and uploading experience. With its user-friendly interface and powerful features, Video Hub offers a seamless platform for playing videos and uploading your own content.",
+      "url": "https://reactvideoapp-a84f2qem8-chirag4601.vercel.app/",
       "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
     },
     {
       "date": "5/07/2023",
-      "title": "XCrypto",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-      "url": "https://react-crypto-app-pi.vercel.app",
+      "title": "CoinTracr",
+      "description": "CoinTrackr is a comprehensive website that serves as a one-stop destination for all your cryptocurrency tracking needs. Whether you're an avid investor, a curious enthusiast, or someone looking to stay updated on the latest trends in the crypto world, CoinTrackr has you covered. With real-time data, exchange rates, value conversions, and interactive graph charts, CoinTrackr empowers you with the information you need to make informed decisions and navigate the exciting world of cryptocurrencies.",
+      "url": "https://main.d3cvxs9ahxzij7.amplifyapp.com/",
       "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
     },
     {
       "date": "12/07/2023",
       "title": "PORTFOLIO",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "description": "This is the portfolio project of Chirag Gupta",
       "url": "/",
       "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
     }
