@@ -1,3 +1,4 @@
+import { Toaster } from "react-hot-toast";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Home from "./components/Home";
@@ -14,6 +15,7 @@ function App() {
       <Timeline />
       <Services />
       <Contact />
+      <Toaster />
     </>
   );
 }
