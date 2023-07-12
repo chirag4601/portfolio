@@ -1,11 +1,13 @@
 import Header from "./components/Header";
 import Home from "./components/Home";
-import "./styles/app.scss";
+import Work from "./components/Work";
+
 function App() {
   return (
     <>
-    <Header />
-    <Home />
+      <Header />
+      <Home />
+      <Work />
     </>
   );
 }
