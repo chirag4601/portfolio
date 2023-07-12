@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Services from "./components/Services";
 import Timeline from "./components/Timeline";
 import Work from "./components/Work";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
       <Timeline />
       <Services />
       <Contact />
+      <Footer />
       <Toaster />
+
     </>
   );
 }
