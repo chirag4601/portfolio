@@ -13,7 +13,7 @@ const NavContent = () => {
         <div>
             <a href='#home'>Home</a>
             <a href='#work'>Work</a>
-            <a href='#experience'>Experience</a>
+            <a href='#timeline'>Experience</a>
             <a href='#service'>Services</a>
             <a href='#contact'>Contact</a>
         </div>

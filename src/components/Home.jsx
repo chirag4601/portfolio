@@ -45,7 +45,7 @@ const Home = ({ ratio }) => {
     };
     return (
         <div id="home">
-            <section>
+            <section >
                 <div>
                     <motion.h1 {...animations.h1}>
                         Hi, I Am <br /> Chirag Gupta
@@ -71,12 +71,12 @@ const Home = ({ ratio }) => {
                     <article>
                         <p>
                             +
-                            {ratio < 2 && (
-                                <motion.span
-                                    whileInView={animationClientsCount}
-                                    ref={clientCount}
-                                ></motion.span>
-                            )}
+                            {/* {ratio < 2 && ( */}
+                            <motion.span
+                                whileInView={animationClientsCount}
+                                ref={clientCount}
+                            ></motion.span>
+                            {/* )} */}
                         </p>
                         <span>Clients Worldwide</span>
                     </article>
@@ -85,14 +85,14 @@ const Home = ({ ratio }) => {
                         <article>
                             <p>
                                 +
-                                {ratio < 2 && (
-                                    <motion.span
-                                        ref={projectCount}
-                                        whileInView={animationProjectsCount}
-                                    >
-                                        500
-                                    </motion.span>
-                                )}
+                                {/* {ratio < 2 && ( */}
+                                <motion.span
+                                    ref={projectCount}
+                                    whileInView={animationProjectsCount}
+                                >
+                                    500
+                                </motion.span>
+                                {/* )} */}
                             </p>
                             <span>Projects Done</span>
                         </article>

@@ -5,6 +5,7 @@
 
     >section {
         width: 100%;
+        margin: auto;
 
         &:first-of-type {
             padding-left: $p;
@@ -12,14 +13,14 @@
             >div {
                 border-top: 1px solid $color6_2;
                 height: 100%;
-                padding-top: 6rem;
+                padding-top: 4rem;
 
                 >h1 {
-                    font: 900 4rem $text1;
+                    font: 900 3rem $text1;
                 }
 
                 .typewriterpara {
-                    margin: 20px 0;
+                    margin: 0px 0;
                     height: 20px;
                     letter-spacing: 5px;
                 }
