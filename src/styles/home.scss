@@ -111,9 +111,10 @@
             }
 
             >img {
-                width: 40vmax;
+                width: 30vmax;
                 object-fit: contain;
-                height: 40vmax;
+                height: 30vmax;
+                margin-bottom: 100px;
             }
         }
     }

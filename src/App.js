@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Services from "./components/Services";
@@ -12,6 +13,7 @@ function App() {
       <Work />
       <Timeline />
       <Services />
+      <Contact />
     </>
   );
 }
