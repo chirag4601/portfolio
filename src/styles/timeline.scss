@@ -35,7 +35,7 @@
             text-align: right;
 
             &::after {
-                animation: upanddown 0.3s infinite ease-in alternate;
+                animation: upanddown 0.1s infinite ease-in alternate;
             }
         }
 
@@ -43,7 +43,7 @@
             text-align: left;
 
             &::after {
-                animation: upanddown 0.5s infinite ease-in alternate;
+                animation: upanddown 0.2s infinite ease-in alternate;
             }
         }
 
