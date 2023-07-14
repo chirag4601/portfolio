@@ -20,13 +20,18 @@ const Work = () => {
           >
             {data.projects.map((i) => (
               <div key={i.title} className="workItem">
-                <img src={i.imgSrc} alt={i.title} />
+                <img src={i.imgSrc} alt={i.title} href={i.githublink}></img>
                 <aside>
                   <h3>{i.title}</h3>
                   <p>{i.description}</p>
-                  <a target={"blank"} href={i.url}>
-                    View Demo
-                  </a>
+                  <div>
+                    <a target={"blank"} href={i.url}>
+                      View Demo
+                    </a>
+                    <a target={"blank"} href={i.githublink}>
+                      View GitHub
+                    </a>
+                  </div>
                 </aside>
               </div>
             ))}

@@ -42,6 +42,9 @@ const NavContent = ({ setMenuOpen }) => (
       <a onClick={() => setMenuOpen(false)} href="#contact">
         Contact
       </a>
+      <a onClick={() => setMenuOpen(false)} href="https://drive.google.com/drive/folders/1K1SdwmvZlkY65Pp7P3Z6Pjkw9v54gEnO?usp=sharing" target="blank">
+        Resume
+      </a>
     </div>
     <a href="mailto:chiragiitd4601@gmail.com">
       <button>Email</button>

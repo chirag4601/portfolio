@@ -19,7 +19,7 @@
     {
       "date": "July, 2023",
       "title": "PORTFOLIO",
-      "description": "This is the portfolio project of Chirag Gupta",
+      "description": "This is the portfolio project of Chirag Gupta developed using HTML, CSS, React.js which displays Projects and experience of Chirag",
       "url": "/",
       "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg",
       "githublink": "https://github.com/chirag4601/portfolio"
