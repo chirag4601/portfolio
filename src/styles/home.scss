@@ -12,7 +12,7 @@
             >div {
                 border-top: 1px solid $color6_2;
                 height: 100%;
-                padding-top: 6rem;
+                padding-top: 2rem;
 
                 >h1 {
                     font: 900 4rem $text1;
@@ -62,7 +62,7 @@
                     margin: 2rem 0;
                     width: 10rem;
                     color: $color5;
-                    position: relative;
+                    position: absolute;
 
                     &::after {
                         content: "";
@@ -71,8 +71,8 @@
                         height: 5rem;
                         border-radius: 50px;
                         position: absolute;
-                        top: 20%;
-                        left: 20%;
+                        top: -10%;
+                        left: -10%;
                         z-index: -1;
                     }
 
@@ -100,16 +100,19 @@
             overflow-x: hidden;
 
             &::after {
+                margin-bottom: 8rem;
                 content: "";
-                width: 40vmax;
-                height: 40vmax;
+                width: 35vmax;
+                height: 35vmax;
                 background-color: $color3;
-                position: absolute;
+                position:absolute;
                 z-index: -1;
                 border-radius: 50%;
             }
 
             >img {
+                margin-bottom: 8rem;
+                margin-left: 2rem ;
                 width: 40vmax;
                 object-fit: contain;
                 height: 40vmax;
@@ -124,6 +127,6 @@
         left: 50%;
         bottom: 5%;
         transform: translateX(-50%);
-        animation: animateSvg 0.7s infinite linear alternate;
+        animation: animateSvg 0.4s infinite linear alternate;
     }
 }

@@ -4,11 +4,13 @@ import {
     AiFillGithub,
     AiFillLinkedin,
     AiOutlineArrowUp,
+    AiOutlineMail
 } from "react-icons/ai";
+import { MdCall } from "react-icons/md";
 
 const Footer = () => {
     return (
-        <footer>
+        <footer id = "footer">
             <div>
                 <img
                     src={me}
@@ -28,6 +30,12 @@ const Footer = () => {
                     </a>
                     <a href="https://github.com/chirag4601" target={"blank"}>
                         <AiFillGithub />
+                    </a>
+                    <a href="tel:+918955375767" target={"blank"}>
+                        <MdCall />
+                    </a>
+                    <a href="mailto:chiragiitd4601@gmail.com" target={"blank"}>
+                        <AiOutlineMail />
                     </a>
                 </article>
             </aside>
