@@ -32,7 +32,7 @@ const Home = ({ ratio }) => {
       <section>
         <div>
           <motion.h1 {...animations.h1}>
-            Hi, I Am <br /> Chirag Gupta
+            Hi, I am <br /> Chirag Gupta
           </motion.h1>
 
           <Typewriter
@@ -46,7 +46,7 @@ const Home = ({ ratio }) => {
           />
 
           <div>
-            <a href="#footer">Contact Me</a>
+            <a href="#footer">Connect with me</a>
             <a href="#work">
               Projects <BsArrowUpRight />
             </a>

@@ -11,7 +11,7 @@ const Work = () => {
         <article>
           <Carousel
             // showArrows={false}
-            // showIndicators={false}
+            showIndicators={false}
             showStatus={false}
             showThumbs={false}
             interval={1500}

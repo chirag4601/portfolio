@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { AiFillIeCircle, AiFillAndroid, AiFillWindows } from "react-icons/ai";
+import { AiFillAndroid } from "react-icons/ai";
+import { BsFillDatabaseFill } from "react-icons/bs";
+import { BiLogoReact } from "react-icons/bi";
 
 const Services = () => {
   const animations = {
@@ -34,14 +36,14 @@ const Services = () => {
           initial={animations.one}
         >
           <h3>2+</h3>
-          <p>Years Experience <br/> (Internship)</p>
+          <p>Years Experience <br /> (Internship)</p>
         </motion.div>
         <motion.div
           className="serviceBox2"
           whileInView={animations.whileInView}
           initial={animations.twoAndThree}
         >
-          <AiFillIeCircle />
+          <BiLogoReact />
           <span>Web Development</span>
         </motion.div>
         <motion.div
@@ -60,7 +62,7 @@ const Services = () => {
           whileInView={animations.whileInView}
           initial={animations.four}
         >
-          <AiFillWindows />
+          <BsFillDatabaseFill />
           <span>Backend Development</span>
         </motion.div>
       </section>

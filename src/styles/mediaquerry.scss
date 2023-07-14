@@ -36,8 +36,10 @@
                         margin: 1rem;
                     }
 
-                    >a {
-                        margin: 1rem;
+                    >div {
+                        >a {
+                            margin: 1rem;
+                        }
                     }
                 }
             }
@@ -286,7 +288,7 @@
                         font-size: 0.75rem;
                     }
 
-                    >a {
+                    >div >a {
                         padding: 0.4rem 0.7rem;
                         font-size: 0.7rem;
                         margin: 1rem;
@@ -302,6 +304,7 @@
         }
 
         .timelineItem {
+            margin-top: 1rem;
             width: 100%;
             padding-left: 5rem;
             padding-right: 2rem;
