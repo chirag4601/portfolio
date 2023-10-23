@@ -2,11 +2,11 @@
   "projects": [
     {
       "date": "Feb, 2021 - May, 2023",
-      "title": "Software Engineer Intern at Liveasy",
-      "description": "Served as senior developer to build a truck booking, managing and load managing platform using Flutter.",
+      "title": "Co-Founder at Liveasy",
+      "description": "Designed end-to-end flow and architecture of mobile & web application with features like GPS tracking, real time load management, user verification and admin dashboard. Used Flutter, Dart, GetX Framework, Firebase as tech stack.",
       "url": "https://play.google.com/store/apps/details?id=com.liveasy.transport",
       "imgSrc": "https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg",
-      "githublink": "https://github.com/chirag4601/transporterAppFlutter"
+      "githublink": "https://github.com/chirag4601/LiveasyApp"
     },
     {
       "date": "March 2022",
