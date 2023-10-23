@@ -36,7 +36,7 @@ const Services = () => {
           initial={animations.one}
         >
           <h3>2+</h3>
-          <p>Years Experience <br /> (Internship)</p>
+          <p>Years Experience</p>
         </motion.div>
         <motion.div
           className="serviceBox2"
