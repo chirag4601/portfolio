@@ -3,7 +3,7 @@
     {
       "date": "Feb, 2021 - May, 2023",
       "title": "Co-Founder at Liveasy",
-      "description": "Designed end-to-end flow and architecture of mobile & web application with features like GPS tracking, real time load management, user verification and admin dashboard. Used Flutter, Dart, GetX Framework, Firebase as tech stack.",
+      "description": "Designed end-to-end flow and architecture of mobile & web application. Used Flutter, Dart, Spring Boot, AWS as tech stack.",
       "url": "https://play.google.com/store/apps/details?id=com.liveasy.transport",
       "imgSrc": "https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg",
       "githublink": "https://github.com/chirag4601/LiveasyApp"
@@ -11,7 +11,7 @@
     {
       "date": "March 2022",
       "title": "McMohan Burgers",
-      "description": "Implemented a simulation environment for McMahon's Burgers and tracked statistics such as average waiting time and queue length to identify areas for improvement.",
+      "description": "Implemented a simulation environment for McMahon's Burgers and tracked statistics to identify areas for improvement.",
       "url": "https://github.com/chirag4601/mcMohan-Burgers",
       "imgSrc": "https://cdn.pixabay.com/photo/2015/05/25/16/14/burger-783551_1280.jpg",
       "githublink": "https://github.com/chirag4601/mcMohan-Burgers"
@@ -27,7 +27,7 @@
     {
       "date": "June, 2023",
       "title": "CoinTracr",
-      "description": "CoinTrackr is a comprehensive website that serves as a one-stop destination for all your cryptocurrency tracking needs. Whether you're an avid investor, or a curious enthusiast, CoinTrackr has you covered with latest information and analysis.",
+      "description": "CoinTrackr is a comprehensive website that serves as a one-stop destination for all your cryptocurrency tracking needs. CoinTrackr offers latest information and analysis.",
       "url": "https://main.d3cvxs9ahxzij7.amplifyapp.com/",
       "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg",
       "githublink": "https://github.com/chirag4601/cryptoAppReact"
@@ -37,7 +37,7 @@
     {
       "date": "June, 2023",
       "title": "TECHY STAR",
-      "description": "This project contains a website for an imaginary TechyStar which is a leading tech company dedicated to providing innovative solutions for the everyday problems faced by individuals, with a particular focus on enhancing problem-solving abilities in children.",
+      "description": "A website for an imaginary TechyStar which is a tech project dedicated to providing innovative solutions, with a particular focus on enhancing problem-solving abilities in children.",
       "url": "https://reacttechystar-q3c59zgrk-chirag4601.vercel.app/",
       "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg",
       "githublink": "https://github.com/chirag4601/reactTechystar"
