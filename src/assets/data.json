@@ -1,6 +1,20 @@
 {
   "projects": [
     {
+      "date": "Feb, 2024 - Current",
+      "title": "SDE at Chakr Innovation",
+      "description": "Led the redesign of a React-Django portal, transitioned backend to GoLang, enhanced data strategy, developed reusable libraries, and optimized codebase, improving performance, scalability, data handling, and maintainability.",
+      "url": "https://chakr.in/",
+      "imgSrc": "https://chakr.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffavicon.4f74bd07.png&w=256"
+    },
+    {
+      "date": "Aug, 2023 - Jan, 2024",
+      "title": "SDE Intern at Filo Edtech",
+      "description": "Built dynamic web pages using Next.js and React. Reduced build size by 40%, enhanced load time, formulated Python scripts for sitemaps, and boosted page speed by optimizing CLS and LCP, improving SEO.",
+      "url": "https://askfilo.com/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg"
+    },
+    {
       "date": "Feb, 2021 - May, 2023",
       "title": "Co-Founder at Liveasy",
       "description": "Designed end-to-end flow and architecture of mobile & web application. Used Flutter, Dart, Spring Boot, AWS as tech stack.",
@@ -31,16 +45,6 @@
       "url": "https://main.d3cvxs9ahxzij7.amplifyapp.com/",
       "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg",
       "githublink": "https://github.com/chirag4601/cryptoAppReact"
-    }
-    
-    ,
-    {
-      "date": "June, 2023",
-      "title": "TECHY STAR",
-      "description": "A website for an imaginary TechyStar which is a tech project dedicated to providing innovative solutions, with a particular focus on enhancing problem-solving abilities in children.",
-      "url": "https://reacttechystar-q3c59zgrk-chirag4601.vercel.app/",
-      "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg",
-      "githublink": "https://github.com/chirag4601/reactTechystar"
     }
   ]
 }
