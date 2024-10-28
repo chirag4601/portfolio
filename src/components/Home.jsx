@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
-import me from "../assets/mypic.png";
+import me from "../assets/chiragGraduation.jpeg";
 
 const Home = ({ ratio }) => {
   const animations = {
@@ -37,7 +37,12 @@ const Home = ({ ratio }) => {
 
           <Typewriter
             options={{
-              strings: ["A Developer", "An Engineer", "An Innovator", "A Creator"],
+              strings: [
+                "A Developer",
+                "An Engineer",
+                "An Innovator",
+                "A Creator",
+              ],
               autoStart: true,
               loop: true,
               cursor: "",
@@ -51,7 +56,6 @@ const Home = ({ ratio }) => {
               Projects <BsArrowUpRight />
             </a>
           </div>
-
         </div>
       </section>
       <section>

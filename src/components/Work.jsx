@@ -28,9 +28,11 @@ const Work = () => {
                     <a target={"blank"} href={i.url}>
                       View Demo
                     </a>
-                    <a target={"blank"} href={i.githublink}>
-                      View GitHub
-                    </a>
+                    {i.githublink && (
+                      <a target={"blank"} href={i.githublink}>
+                        View GitHub
+                      </a>
+                    )}
                   </div>
                 </aside>
               </div>
