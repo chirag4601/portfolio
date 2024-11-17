@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
-import me from "../assets/chiragGraduation.jpeg";
+import me from "../assets/chiragGraduation.png";
 
 const Home = ({ ratio }) => {
   const animations = {
