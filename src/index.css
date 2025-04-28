@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  body {
+    @apply font-sans text-gray-800 dark:text-gray-200 bg-gray-50 dark:bg-gray-900 transition-colors duration-300;
+  }
+  
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24;
+  }
+  
+  .heading-1 {
+    @apply text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary-light mb-6;
+  }
+  
+  .heading-2 {
+    @apply text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-6;
+  }
+  
+  .heading-3 {
+    @apply text-2xl font-semibold text-gray-800 dark:text-white mb-4;
+  }
+  
+  .paragraph {
+    @apply text-base md:text-lg leading-relaxed text-gray-600 dark:text-gray-300;
+  }
+  
+  .btn-primary {
+    @apply px-6 py-3 bg-primary hover:bg-primary-dark text-white rounded-md font-medium transition-all 
+           duration-300 transform hover:-translate-y-1 hover:shadow-lg inline-flex items-center gap-2;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 
+           hover:border-primary dark:hover:border-primary text-gray-800 dark:text-gray-200 
+           rounded-md font-medium transition-all duration-300 transform hover:-translate-y-1 
+           hover:shadow-lg inline-flex items-center gap-2;
+  }
+  
+  .card {
+    @apply bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition-all 
+           duration-300 overflow-hidden border border-gray-100 dark:border-gray-700;
+  }
+  
+  .nav-link {
+    @apply text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary-light 
+           font-medium transition-colors duration-300;
+  }
+  
+  .timeline-item {
+    @apply relative pl-8 pb-12 border-l-2 border-gray-200 dark:border-gray-700 last:border-0 last:pb-0;
+  }
+  
+  .timeline-dot {
+    @apply absolute left-[-8px] top-1 w-4 h-4 rounded-full bg-primary;
+  }
+  
+  .skill-bar {
+    @apply h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden;
+  }
+  
+  .skill-progress {
+    @apply h-full bg-gradient-to-r from-primary to-primary-light rounded-full transform origin-left transition-all duration-1000;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+.slide-up {
+  animation: slideUp 0.8s ease-out forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animation delays */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+
+/* Particle background */
+.particles-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* For the hero gradient animation */
+.hero-gradient {
+  background: linear-gradient(-45deg, #0A192F, #112240, #1A365D, #2D3748);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
