@@ -209,7 +209,7 @@ const Contact: FC = () => {
                 href={`mailto:${contactInfo.email}?subject=Job Opportunity`}
                 className="inline-block w-full py-3 px-4 bg-white text-primary font-medium rounded-md text-center hover:bg-gray-100 transition-colors"
               >
-                Hire Me
+                Email Me
               </a>
             </div>
           </div>

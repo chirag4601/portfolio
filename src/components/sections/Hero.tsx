@@ -49,16 +49,16 @@ const Hero: React.FC = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex flex-col justify-center hero-gradient overflow-hidden"
+      className="relative min-h-screen flex flex-col justify-center bg-gradient-to-br from-white via-gray-100 to-gray-200 dark:from-primary dark:via-primary-dark dark:to-gray-900 overflow-hidden"
     >
-      <div className="absolute inset-0 bg-primary/10 backdrop-blur-sm dark:bg-gray-900/50"></div>
+      <div className="absolute inset-0 bg-white/50 dark:bg-primary/10 backdrop-blur-sm"></div>
 
       {/* Animated particles background effect */}
       <div className="particles-bg">
         {[...Array(20)].map((_, i) => (
           <div
             key={i}
-            className="absolute rounded-full bg-primary-light/20 dark:bg-primary-light/10"
+            className="absolute rounded-full bg-primary/20 dark:bg-primary-light/10"
             style={{
               width: `${Math.random() * 8 + 2}px`,
               height: `${Math.random() * 8 + 2}px`,
@@ -72,16 +72,16 @@ const Hero: React.FC = () => {
 
       <div className="section-container relative z-10 md:w-[750px]">
         <div className="">
-          <h2 className="text-lg md:text-xl font-medium text-primary-light dark:text-primary-light mb-2 fade-in">
+          <h2 className="text-lg md:text-xl font-medium text-primary dark:text-primary-light mb-2 fade-in">
             Hi, my name is
           </h2>
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white dark:text-white mb-4 fade-in delay-100">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white mb-4 fade-in delay-100">
             Chirag Gupta
           </h1>
-          <h3 className="text-3xl md:text-4xl font-bold text-gray-200 dark:text-secondary-light mb-6 fade-in delay-200">
+          <h3 className="text-3xl md:text-4xl font-bold text-gray-700 dark:text-secondary-light mb-6 fade-in delay-200">
             {text}
           </h3>
-          <p className="text-xl text-gray-300 dark:text-gray-300 mb-8 max-w-xl fade-in delay-300">
+          <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-xl fade-in delay-300">
             I'm a Full-Stack Developer specializing in React.js, Django, and
             AWS. Currently, I'm focused on building fast and efficient systems
             with real-time analytics and automation-first architectures.
@@ -111,10 +111,10 @@ const Hero: React.FC = () => {
       {/* Scroll indicator */}
       {showArrow && (
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce-slow fade-in delay-500">
-          <p className="text-white dark:text-gray-300 mb-2 text-sm">
+          <p className="text-gray-600 dark:text-gray-300 mb-2 text-sm">
             Scroll Down
           </p>
-          <ChevronDown className="text-white dark:text-gray-300" size={24} />
+          <ChevronDown className="text-gray-600 dark:text-gray-300" size={24} />
         </div>
       )}
     </section>

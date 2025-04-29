@@ -63,23 +63,22 @@ export const skillCategories: SkillCategory[] = [
     name: "Languages",
     skills: [
       { name: "JavaScript", proficiency: 95 },
-      { name: "TypeScript", proficiency: 90 },
-      { name: "Python", proficiency: 85 },
+      { name: "Python", proficiency: 90 },
+      { name: "TypeScript", proficiency: 85 },
       { name: "C++", proficiency: 80 },
       { name: "Java", proficiency: 75 },
-      { name: "Golang", proficiency: 70 },
-      { name: "Dart", proficiency: 65 },
-      { name: "SML", proficiency: 60 },
+      { name: "Golang", proficiency: 60 },
+      { name: "Dart", proficiency: 50 },
     ],
   },
   {
     name: "Frameworks & Libraries",
     skills: [
       { name: "React.js", proficiency: 95 },
+      { name: "Django", proficiency: 90 },
       { name: "Next.js", proficiency: 90 },
       { name: "Node.js", proficiency: 85 },
       { name: "Express", proficiency: 80 },
-      { name: "Django", proficiency: 85 },
       { name: "Spring Boot", proficiency: 75 },
       { name: "Flutter", proficiency: 70 },
     ],
@@ -87,8 +86,8 @@ export const skillCategories: SkillCategory[] = [
   {
     name: "Databases & Tools",
     skills: [
+      { name: "PostgreSQL", proficiency: 85 },
       { name: "MongoDB", proficiency: 85 },
-      { name: "PostgreSQL", proficiency: 80 },
       { name: "MySQL", proficiency: 85 },
       { name: "AWS", proficiency: 80 },
       { name: "Docker", proficiency: 75 },
