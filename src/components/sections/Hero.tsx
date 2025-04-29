@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { FC, useEffect, useState } from "react";
 import { ArrowRight, ChevronDown, Linkedin, Github } from "lucide-react";
 import { socialLinks } from "../../data/resumeData";
 
-const Hero: React.FC = () => {
+const Hero: FC = () => {
   const [showArrow, setShowArrow] = useState(true);
   const [text, setText] = useState("I");
   const fullText = "I build exceptional digital experiences.";
@@ -11,8 +11,8 @@ const Hero: React.FC = () => {
   useEffect(() => {
     if (index < fullText.length) {
       const timeout = setTimeout(() => {
-        setText((prev) => prev + fullText[index]);
-        setIndex((prev) => prev + 1);
+        setText(fullText.substring(0, index + 1));
+        setIndex((prev) => (prev + 1) % fullText.length);
       }, 100);
       return () => clearTimeout(timeout);
     }
